@@ -1,0 +1,22 @@
+GET http://localhost:3001/api/persons/
+
+#######
+DELETE http://localhost:3001/api/persons/62c1151867e80dee416f1a7b
+#########
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+    "name": "Esteban Dido",
+    "number": "0424-5555555"
+}
+
+
+##########################
+PUT http://localhost:3001/api/persons/62c115fefb68c9583cf2c2ff
+Content-Type: application/json
+
+{
+    "name": "Esteban Dido",
+    "number": "0424-5555635"
+}
